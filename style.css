@@ -1,0 +1,164 @@
+.colorBg1,
+.colorBg1:active,
+.colorBg1:focus,
+.colorBg1:hover,
+.colorBg1:visited {
+    background-color: #C1001E
+}
+
+.colorBorder1,
+.colorBorder1:active,
+.colorBorder1:focus,
+.colorBorder1:hover,
+.colorBorder1:visited {
+    border-color: #C1001E
+}
+
+.colorBg2,
+.colorBg2:active,
+.colorBg2:focus,
+.colorBg2:hover,
+.colorBg2:visited {
+    background-color: #133d77;
+}
+
+.colorBorder2,
+.colorBorder2:active,
+.colorBorder2:focus,
+.colorBorder2:hover,
+.colorBorder2:visited {
+    border-color: #133d77;
+}
+
+[type=radio]:checked+label:after,
+[type=radio]:not(:checked)+label:after {
+    background: #133d77;
+}
+
+html {
+    font-size: 14px
+}
+
+header .logo img {
+    max-height: 50px
+}
+
+.modal-content {
+    border-style: solid;
+    border-width: 3px
+}
+
+.modal-header {
+    border-bottom-style: solid;
+    border-bottom-width: 2px
+}
+
+.modal-footer {
+    border-top-width: 2px;
+    border-top-style: solid;
+    justify-content: space-between
+}
+
+.modal-footer img {
+    max-width: 100px
+}
+
+#q2,
+#q3,
+#q4,
+.prizes,
+.validation,
+.vr1,
+.vr2,
+.vr3 {
+    display: none
+}
+
+canvas {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    pointer-events: none
+}
+
+.prizes .card-img {
+    margin: 0 auto;
+    width: 320px;
+}
+
+[type=radio]:checked,
+[type=radio]:not(:checked) {
+    position: absolute;
+    left: -9999px
+}
+
+[type=radio]:checked+label,
+[type=radio]:not(:checked)+label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: block;
+    font-weight: bold
+}
+
+[type=radio]:checked+label:before,
+[type=radio]:not(:checked)+label:before {
+    content: '';
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #133d77;
+    ;
+    border-radius: 100%;
+    background: #fff
+}
+
+[type=radio]:checked+label:after,
+[type=radio]:not(:checked)+label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease
+}
+
+[type=radio]:not(:checked)+label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0)
+}
+
+[type=radio]:checked+label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1)
+}
+
+.questions .card,
+.questions .list-group-item,
+.prizes .prize1 {
+    background-color: #C1001E
+}
+
+.questions,
+#outroModal .modal-body {
+    color: #ffffff;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 600px) {
+    .prizes .card-img {
+        width: 100%;
+    }
+}

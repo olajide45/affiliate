@@ -1,0 +1,337 @@
+
+<!-- 
+This landing page has been cleaned for Anstrex spy tool by The Landers Club ( https://thelanders.club ). If you want to get landers ripped and cleaned, visit our site or message us on telegram id sethinitin
+ -->
+ 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title class="tpl_congrats">Congratulations!</title>
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  <meta http-equiv="cleartype" content="on">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadTranslation()">
+  <canvas id="canvas"></canvas>
+  <header>
+    <div class="logo colorBg1 p-2">
+      <div class="container">
+        <img src="logo.png" alt="">
+      </div>
+    </div>
+  </header>
+  <div class="container">
+
+    <div class="intro">
+      <div class="row">
+        <div class="col">
+          <div class="card mb-3 mt-3 shadow-sm mb-5 bg-white rounded">
+            <div class="card-body">
+              <h5 class="card-title"><strong class="tpl_congrats"></strong></h5>
+              <p class="card-text tpl_introP1"></p>
+              <p class="card-text tpl_introP2"></p>
+              <p class="card-text tpl_introP3"></p>
+              <p class="card-text tpl_introP4"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="questions">
+      <div class="card mb-3 shadow-sm mb-5 rounded" id="q1">
+        <div class="card-header">
+          <h4 class="tpl_q1"></h4>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q1" id="q1a1" value="q1a1">
+              <label class="form-check-label tpl_q1a1" for="q1a1"></label>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q1" id="q1a2" value="q1a2">
+              <label class="form-check-label tpl_q1a2" for="q1a2"></label>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q1" id="q1a3" value="q1a3">
+              <label class="form-check-label tpl_q1a3" for="q1a3"></label>
+            </div>
+          </li>
+        </ul>
+        <div class="text-center my-2">
+          <button type="button" class="btn btn-primary px-5 py-2 tpl_ok colorBg2 colorBorder2"></button>
+        </div>
+      </div>
+      <!-- end.q1 -->
+
+      <div class="card mb-3 shadow-sm mb-5 rounded" id="q2">
+        <div class="card-header">
+          <h4 class="tpl_q2"></h4>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q2" id="q2a1" value="q2a1">
+              <label class="form-check-label tpl_q2a1" for="q2a1"></label>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q2" id="q2a2" value="q2a2">
+              <label class="form-check-label tpl_q2a2" for="q2a2"></label>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q2" id="q2a3" value="q2a3">
+              <label class="form-check-label tpl_q2a3" for="q2a3"></label>
+            </div>
+          </li>
+        </ul>
+        <div class="text-center my-2">
+          <button type="button" class="btn btn-primary px-5 py-2 tpl_ok colorBg2 colorBorder2"></button>
+        </div>
+      </div>
+      <!-- end.q2 -->
+
+      <div class="card mb-3 shadow-sm mb-5 rounded" id="q3">
+        <div class="card-header">
+          <h4 class="tpl_q3"></h4>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q3" id="q3a1" value="q3a1">
+              <label class="form-check-label tpl_q3a1" for="q3a1"></label>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q3" id="q3a2" value="q3a2">
+              <label class="form-check-label tpl_q3a2" for="q3a2"></label>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q3" id="q3a3" value="q3a3">
+              <label class="form-check-label tpl_q3a3" for="q3a3"></label>
+            </div>
+          </li>
+        </ul>
+        <div class="text-center my-2">
+          <button type="button" class="btn btn-primary px-5 py-2 tpl_ok colorBg2 colorBorder2"></button>
+        </div>
+      </div>
+      <!-- end.q3 -->
+
+      <div class="card mb-3 shadow-sm mb-5 rounded" id="q4">
+        <div class="card-header">
+          <h4 class="tpl_q4"></h4>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q4" id="q4a1" value="q4a1">
+              <label class="form-check-label tpl_q4a1" for="q4a1"></label>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q4" id="q4a2" value="q4a2">
+              <label class="form-check-label tpl_q4a2" for="q4a2"></label>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q4" id="q4a3" value="q4a3">
+              <label class="form-check-label tpl_q4a3" for="q4a3"></label>
+            </div>
+          </li>
+        </ul>
+        <div class="text-center my-2">
+          <button type="button" class="btn btn-primary px-5 py-2 tpl_ok colorBg2 colorBorder2"></button>
+        </div>
+      </div>
+      <!-- end.q4 -->
+    </div>
+    <!-- end.questions -->
+
+    <div class="validation">
+
+      <div class="row">
+        <div class="col">
+          <div class="card mb-3 mt-3 shadow-sm mb-5 bg-white rounded">
+            <div class="card-header">
+              <div class="progress" style="height: 25px">
+                <div id="dynamic" class="progress-bar progress-bar-success active colorBg2" role="progressbar"
+                  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                  <span id="current-progress"></span>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <ul class="list-group list-group-flush" id="validation-check">
+                <li class="list-group-item">
+                  <div class="vc1"><img src="loading.gif" width="25" height="25" alt=""> <span class="tpl_vc1"></span>
+                  </div>
+                  <div class="vr1"><img src="check.png" width="20" height="20" alt=""> <span class="tpl_vr1"></span>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="vc2"><img src="loading.gif" width="25" height="25" alt=""> <span class="tpl_vc2"></span>
+                  </div>
+                  <div class="vr2"><img src="check.png" width="20" height="20" alt=""> <span class="tpl_vr2"></span>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="vc3"><img src="loading.gif" width="25" height="25" alt=""> <span class="tpl_vc3"></span>
+                  </div>
+                  <div class="vr3"><img src="check.png" width="20" height="20" alt=""> <span class="tpl_vr3"></span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="prizes mt-3">
+
+      <h3 class="text-center tpl_prizeH1"></h3>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card prize1 shadow-sm mb-5 rounded text-center">
+            <div class="card-body">
+              <a href="			" data-toggle="modal" data-target="#outroModal"><img
+                  src="prize1.png" width="320" height="190" alt="" class="card-img"></a>
+              <a href="			" data-toggle="modal" data-target="#outroModal"
+                class="text-dark text-decoration-none">
+                <h3 class="card-title tpl_prizeH2"></h3>
+              </a>
+              <a href="https://redirecting5.eu/p/DBlt/fHFs/emAw"
+                class="btn btn-primary px-5 py-2 text-uppercase tpl_choose colorBg2 colorBorder2"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card prize2 shadow-sm mb-5 bg-white rounded text-center" style="opacity:0.4">
+            <img src="prize2.png" width="320" height="190" alt="" class="card-img">
+            <div class="card-body">
+              <h3 class="card-title tpl_prizeH3"></h3>
+              <a href="https://redirecting5.eu/p/DBlt/fHFs/emAw	"
+                class="btn btn-primary px-5 py-2 text-uppercase disabled tpl_soldout colorBg2 colorBorder2"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="comments">
+
+      <div class="card shadow-sm mb-5 bg-white rounded">
+        <div class="card-header">
+          <h3 class="tpl_commentsH1"></h3>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col-3 col-sm-2 col-md-1 text-center">
+                <img src="c1.jpg" alt="" class="rounded-circle" width="50" height="50">
+              </div>
+              <div class="col-9 col-sm-10 col-md-11">
+                <div class="name text-primary font-weight-bold tpl_commName1"></div>
+                <div class="text tpl_commText1"></div>
+                <small class="date text-success tpl_commDate1"></small>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col-3 col-sm-2 col-md-1 text-center">
+                <img src="c2.jpg" alt="" class="rounded-circle" width="50" height="50">
+              </div>
+              <div class="col-9 col-sm-10 col-md-11">
+                <div class="name text-primary font-weight-bold tpl_commName2"></div>
+                <div class="text tpl_commText2"></div>
+                <small class="date text-success tpl_commDate2"></small>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col-3 col-sm-2 col-md-1 text-center">
+                <img src="c3.jpg" alt="" class="rounded-circle" width="50" height="50">
+              </div>
+              <div class="col-9 col-sm-10 col-md-11">
+                <div class="name text-primary font-weight-bold tpl_commName3"></div>
+                <div class="text tpl_commText3"></div>
+                <small class="date text-success tpl_commDate3"></small>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col-3 col-sm-2 col-md-1 text-center">
+                <img src="c4.jpg" alt="" class="rounded-circle" width="50" height="50">
+              </div>
+              <div class="col-9 col-sm-10 col-md-11">
+                <div class="name text-primary font-weight-bold tpl_commName4"></div>
+                <div class="text tpl_commText4"></div>
+                <small class="date text-success tpl_commDate4"></small>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col-3 col-sm-2 col-md-1 text-center">
+                <img src="c5.jpg" alt="" class="rounded-circle" width="50" height="50">
+              </div>
+              <div class="col-9 col-sm-10 col-md-11">
+                <div class="name text-primary font-weight-bold tpl_commName5"></div>
+                <div class="text tpl_commText5"></div>
+                <small class="date text-success tpl_commDate5"></small>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- end.comments -->
+
+    <footer class="mt-3 mb-3 text-muted">
+      <div class="row">
+        <div class="col">
+          <hr>
+        </div>
+        <div class="col-auto tpl_copyright"></div>
+        <div class="col">
+          <hr>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="main_script.js"></script>
+    <script src="lander_content.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+
+  </div>
+</body>
+
+</html>
